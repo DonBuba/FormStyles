@@ -75,15 +75,22 @@
                         
                         width: fit-content;
                         border: none;
-                        background: white ;
+                        background: rgb(36, 23, 23) ;
                         legend{
                                     border-radius:  1.2rem 1.2rem 0 0 ;
-                                    box-shadow: -15px 0px 10px -15px #F6E2EA;     
-                                     z-index: 1000;
-                                     position: relative;
+                                    box-shadow: 0px 0px 10px 3px #f6e2ea;   
+                                    position: relative;
                                     padding: 1rem;
                                     color: #4CAA98;
                                     background: white;
+                        }
+                        .shadowBlocker{
+                            width: 110%;
+                            position: absolute;
+                            height: 10px;
+                            bottom: -9px;
+                            background: white;
+                            left: 0px;
                         }
             }
             input {
