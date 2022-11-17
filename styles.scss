@@ -1,0 +1,125 @@
+
+
+.form1{
+            fieldset{
+                        border: none;
+                         width: fit-content;
+             
+             
+                        
+             
+                         legend{
+                                     border: 1px #B4B4B4 dashed !important;
+                                     border-bottom: 1px solid white !important;
+                                     padding: 0.5rem 1rem;
+                                     color: #345E81;
+                                     background-color: white !important;
+                                     z-index: 1000;
+                                     position: relative;
+             
+                                    
+                         }
+             }
+             
+             .inputCOnt{
+                         border: 1px #B4B4B4 dashed ;
+                         padding: 1rem;
+                         margin-top: -7px;
+             
+             }
+             
+             input {
+                         border: none;
+                         border-bottom: 1px solid #9AD1C7;
+                         background: url('./pl.svg');
+                         background-repeat: no-repeat;
+                         padding-left: 1rem;
+                         padding-bottom: 0.2rem;
+             
+                         &:focus-visible{
+                                     outline: none !important;
+                         }
+             }
+             
+             button{
+                         padding: 0.5rem 1.5rem;
+                         color: white;
+                         background: #2A7AAD;
+                         border: none;
+                         border-radius: 0.5rem;
+             }
+             
+             
+             .imgdiv{
+                         display: none;
+                         position: relative;
+                         top: -2rem;
+                         left: -1rem;
+             }
+             
+             .editIcon{
+                         background: url('./editIcon.svg');
+                         height: 1.5rem;
+                         width: 1.5rem;
+                         background-size: contain;
+                         background-repeat: no-repeat;
+                         display: inline-block;
+                         margin-left: 1rem;
+                         transform: translateY(15%);
+             }
+}
+
+.form2 {
+            margin-top: 2rem;
+            fieldset {
+                        
+                        width: fit-content;
+                        border: none;
+                        background: white ;
+                        legend{
+                                    border-radius:  1.2rem 1.2rem 0 0 ;
+                                    box-shadow: -15px 0px 10px -15px #F6E2EA;     
+                                     z-index: 1000;
+                                     position: relative;
+                                    padding: 1rem;
+                                    color: #4CAA98;
+                                    background: white;
+                        }
+            }
+            input {
+                        border: none;
+                        border-bottom: 1px solid #9AD1C7;
+                        background: url('./pl.svg');
+                        background-repeat: no-repeat;
+                        padding-left: 1rem;
+                        padding-bottom: 0.2rem;
+            
+                        &:focus-visible{
+                                    outline: none !important;
+                        }
+            }
+
+            .inputCOnt{
+                        border-radius:   0 1.2rem 1.2rem 1.2rem  ;
+                        box-shadow: 0px 0px 10px 3px #F6E2EA;
+                        padding: 1rem;
+                        margin-top: -7px;    
+                        padding: 1rem;
+                        margin-top: -7px;
+            }
+
+            .save {
+                        padding: 0.5rem 1rem;
+                        border-radius: 0.5rem;
+                        border: solid 2px #54E5E5;
+                        background-color: unset;
+                        color: #54E5E5;
+            }
+
+            .cancel {
+                        padding: 0.5rem 1rem;
+                        border-radius: 0.5rem;
+                        background-color: linear-gradient(90deg, rgba(234,185,39,1) 0%, rgba(187,235,226,1) 36%, rgba(84,229,229,1) 68%, rgba(187,235,226,1) 100%) !important;
+                        color: white;
+            }
+}

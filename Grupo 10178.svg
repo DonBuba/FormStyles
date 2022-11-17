@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.529" height="33.529" viewBox="0 0 33.529 33.529">
+  <defs>
+    <filter id="Trazado_14923" x="0" y="0" width="33.529" height="33.529" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_10178" data-name="Grupo 10178" transform="translate(-670.971 -60.969)">
+    <g transform="matrix(1, 0, 0, 1, 670.97, 60.97)" filter="url(#Trazado_14923)">
+      <path id="Trazado_14923-2" data-name="Trazado 14923" d="M7.765,0A7.765,7.765,0,1,1,0,7.765,7.765,7.765,0,0,1,7.765,0Z" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <path id="Icon_metro-bin" data-name="Icon metro-bin" d="M5.065,4.758v5.659a.568.568,0,0,0,.566.566h5.094a.568.568,0,0,0,.566-.566V4.758H5.065Zm1.7,5.094H6.2V5.89h.566Zm1.132,0H7.329V5.89h.566Zm1.132,0H8.46V5.89h.566Zm1.132,0H9.592V5.89h.566ZM11.432,3.06H9.592V2.352a.426.426,0,0,0-.424-.424H7.187a.426.426,0,0,0-.424.424V3.06H4.923a.426.426,0,0,0-.424.424v.707h7.357V3.484a.426.426,0,0,0-.424-.424Zm-2.405,0h-1.7V2.5h1.7V3.06Z" transform="translate(679.523 68.417)" fill="#f45c8b"/>
+  </g>
+</svg>
