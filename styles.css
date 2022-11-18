@@ -61,16 +61,22 @@
   width: -moz-fit-content;
   width: fit-content;
   border: none;
-  background: white;
 }
 .form2 fieldset legend {
   border-radius: 1.2rem 1.2rem 0 0;
-  box-shadow: -15px 0px 10px -15px #F6E2EA;
-  z-index: 1000;
+  box-shadow: 0px 0px 10px 3px #f6e2ea;
   position: relative;
   padding: 1rem;
   color: #4CAA98;
   background: white;
+}
+.form2 fieldset .shadowBlocker {
+  width: 110%;
+  position: absolute;
+  height: 10px;
+  bottom: -9px;
+  background: white;
+  left: 0px;
 }
 .form2 input {
   border: none;
@@ -101,6 +107,14 @@
 .form2 .cancel {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  background-color: linear-gradient(90deg, rgb(234, 185, 39) 0%, rgb(187, 235, 226) 36%, rgb(84, 229, 229) 68%, rgb(187, 235, 226) 100%) !important;
+  border: none;
+  background: linear-gradient(250deg, rgb(234, 185, 39) 0%, rgb(108, 222, 199) 56%, rgb(84, 229, 229) 74%, rgb(187, 235, 226) 100%);
   color: white;
+}
+.form2 .btn2 {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  background: linear-gradient(250deg, rgb(234, 185, 39) 0%, rgb(229, 84, 139) 28%, rgb(84, 229, 229) 78%, rgb(187, 235, 226) 100%);
 }/*# sourceMappingURL=styles.css.map */
